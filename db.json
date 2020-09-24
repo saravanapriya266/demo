@@ -1,14 +1,63 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"users": [
+        {
+            "user": "priya",
+            "actions": [{
+                    "post": "user1 - post1",
+                    "comments": [{
+                            "name": "a",
+                            "comment": "comment1",
+                            "likes": 2
+                        },
+                        {
+                            "name": "b",
+                            "comment": "comment2",
+                            "likes": 1
+                        }
+                    ]
+                },
+                {
+                    "post": "user1 - post2",
+                    "comments": [{
+                            "name": "c",
+                            "comment": "comment3",
+                            "likes": 2
+                        },
+                        {
+                            "name": "d",
+                            "comment": "comment4",
+                            "likes": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "sara",
+            "actions": [{
+                    "post": "user2 - post1",
+                    "comments": [{
+                            "name": "a",
+                            "comment": "comment1",
+                            "likes": 2
+                        }
+                    ]
+                },
+                {
+                    "post": "user2 - post2",
+                    "comments": [{
+                            "name": "c",
+                            "comment": "comment3",
+                            "likes": 2
+                        },
+                        {
+                            "name": "d",
+                            "comment": "comment4",
+                            "likes": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
