@@ -58,6 +58,60 @@
                     ]
                 }
             ]
+        },
+	{
+            "user": "testUset",
+            "actions": [{
+                    "post": "user2 - post1",
+                    "comments": [{
+                            "name": "a",
+                            "comment": "comment1",
+                            "likes": 2
+                        }
+                    ]
+                },
+                {
+                    "post": "user2 - post2",
+                    "comments": [{
+                            "name": "c",
+                            "comment": "comment3",
+                            "likes": 2
+                        },
+                        {
+                            "name": "d",
+                            "comment": "comment4",
+                            "likes": 1
+                        }
+                    ]
+                }
+            ]
+        },
+	{
+            "user": "testuser3",
+            "actions": [{
+                    "post": "user2 - post1",
+                    "comments": [{
+                            "name": "a",
+                            "comment": "comment1",
+                            "likes": 2
+                        }
+                    ]
+                },
+                {
+                    "post": "user2 - post2",
+                    "comments": [{
+                            "name": "c",
+                            "comment": "comment3",
+                            "likes": 2
+                        },
+                        {
+                            "name": "d",
+                            "comment": "comment4",
+                            "likes": 1
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
